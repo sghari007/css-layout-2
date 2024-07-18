@@ -1,0 +1,140 @@
+
+body {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+} 
+
+ .container {
+  margin-left: auto;
+  margin-right: auto;
+  display:flex ;
+  max-width: 1047px;
+  text-align: left;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  color: #8a8a8a;
+
+}
+
+h1 {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #21bca8;
+  padding-left: 80px;
+
+}
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 200pX;
+    padding-right:200px;
+}
+.col-2 {
+  flex: 1;
+  margin: 20px;
+  text-align: left
+}
+
+.col-2 p {
+  line-height: 1.6;
+   color: #979797;   
+}
+.lead__logo {
+  padding-top: 70px;
+  
+}
+h1 {
+  width: auto;
+  height: 60px;
+  font-size: 200%;
+}
+.col{
+  align-content: start;
+  text-align: left;
+  display:inline-flex;
+}
+.card1 {
+  color: white;
+  background-color: #00ccb1;
+  border-radius: 15px;
+}
+.card2 {
+  color: white;
+  background-color: #3d83df;
+  border-radius: 15px;
+  padding: 25px;
+  
+}
+.card3 {
+  color: white;
+  background-color: #1b2734;
+  border-radius: 15px;
+  padding: 25px;
+  padding-bottom: 50px;
+}
+h5{
+  font-size: 200%;
+}
+
+
+.sel-2:hover {
+  background-color: #3d83df;
+}
+.sel-3:hover {
+  background-color: #1b2734;
+}
+.sel-4:hover {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+
+ }
+.select:focus {
+  outline: none;
+}
+.sec2{
+  text-align: left;
+}
+.logo2 {
+  display:inline-flex;
+  align-items: end;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-left: 100px;
+  padding-right: 1009;
+}
+.sec1{
+  padding-left: 200pX;
+    padding-right:200px;
+
+}
+.sec2{
+  font-size: 200%;
+  color: #00ccb1;
+  padding-left: 200pX;
+    padding-right:200px;
+
+}
+.sec3 {
+  background-color: #d0faf4;
+  color: #9aaca9;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+h3 {
+  color:#12b9a2;
+}
+        
