@@ -4,8 +4,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    
-
+    font-family: 'Proxima Nova', sans-serif;
 } 
 
  .container {
@@ -32,12 +31,9 @@ h1 {
 nav {
   background-color: white;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-left: 200pX;
-    padding-right:200px;
-}
+ margin-left: 12%;
+ margin-right: 12%;
+  }
 .col-2 {
   flex: 1;
   margin: 20px;
@@ -56,6 +52,7 @@ h1 {
   width: auto;
   height: 60px;
   font-size: 200%;
+  font-family: 'Proxima Nova', sans-serif;
 }
 .col{
   align-content: start;
@@ -83,6 +80,7 @@ h1 {
 }
 h5{
   font-size: 200%;
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 
@@ -111,9 +109,7 @@ h5{
   padding-top: 25px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 80px;
-  padding-left: 100px;
-  padding-right: 1009;
+  padding-right: 100px;
 }
 .sec1{
   padding-left: 200pX;
@@ -137,4 +133,44 @@ h5{
 h3 {
   color:#12b9a2;
 }
-        
+.sec4 {
+  display:block;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: space-around;
+}
+.card {
+  margin: 15px;
+}
+.card :hover{
+  color:black
+}
+ button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+.sec-1 {
+  text-align: center;
+  margin: 5%;
+}
+h6 {
+  font-size: 200%;
+  color: #20bca7;
+  font-family: 'Proxima Nova', sans-serif;}
+.sec-1 p{
+  color: #a5a5a5;
+}
+.sec5{
+  text-align: center;
+  margin: 15%;
+}
+.sec6{
+  text-align: center;
+  color: #8a8a8a;
+  background-color: #979797;
+}
